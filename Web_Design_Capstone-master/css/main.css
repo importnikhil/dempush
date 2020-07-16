@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'HustleFont';
+  src: url('./hustle_font.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+   url('./hustle_font.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+@font-face {
+  font-family: 'CekerayamFont';
+  src: url('./cekerayam.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+   url('./cekerayam.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}  
+
+
+.container {
+	background-color: lightgray;
+	/* height: 90.8vh; */
+	height: 100%;
+	opacity: 0.7;
+	padding: 1.2rem;
+	font-family: CekerayamFont;
+}
+
+@media screen and (min-width: 768px) {
+	.container {
+		margin-top: 5.7rem;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+		margin-bottom: 2.2rem;
+	}
+}
+
+
+nav > div > ul.navbar-nav {
+	margin: 0 auto;
+}
+
+nav > div > ul > li.nav-item {
+	width: 10rem;
+	font-family: CekerayamFont;
+	font-size: 2.5rem;
+}
+
+nav > div.footer-link-group {
+	text-align: center;
+	margin: 0 auto;
+}
